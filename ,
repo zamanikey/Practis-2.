@@ -1,0 +1,8 @@
+from intertools import groupby 
+a = {'телефон' '777-777'},
+    {'телефон' '666-666'},
+    {'телефон' '777-777'},
+    {'телефон' '454-454'},]\
+r = groupby(sorted(a, key =lamba x: x["телефон"]), lambda x: x["телефон"])
+for k , g in r:
+print (k,leb(list(g)))
